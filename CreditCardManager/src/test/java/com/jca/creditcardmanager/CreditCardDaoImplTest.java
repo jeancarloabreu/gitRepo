@@ -13,7 +13,7 @@ import main.java.com.jca.creditcardmanager.CreditCard;
 import org.junit.Before;
 import org.junit.Test;
 
-public class CreditCardTest {
+public class CreditCardDaoImplTest {
 
 	Bank bank;
 	CreditCard cc1;

@@ -33,7 +33,6 @@ public class BankDaoImpl implements BankDao {
 				Bank bank = new Bank(bankName, prop.getProperty(bankName));
 				banks.add(bank);
 			}
-			System.out.println(banks.size());
 	 
 		} catch (IOException io) {
 			io.printStackTrace();
